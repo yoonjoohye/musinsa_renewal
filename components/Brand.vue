@@ -1,6 +1,7 @@
 <template>
-  <div></div>
-
+  <div class="p-5">
+    <img class="w-24" src="../assets/image/brand.png">
+  </div>
 </template>
 
 <script>

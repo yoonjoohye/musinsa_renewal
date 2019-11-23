@@ -25,7 +25,11 @@ module.exports = {
     whitelist: ['css-selector-to-whitelist'],
   },
   css:[
-    { src: '~assets/scss/style.scss', lang: 'scss' }
+    { src: '~assets/scss/style.scss', lang: 'scss' },
+    { src:'swiper/dist/css/swiper.css'},
+  ],
+  plugins: [
+    { src: '~/plugins/swiper.js', ssr: false },
   ],
   /*
   ** Customize the progress bar color

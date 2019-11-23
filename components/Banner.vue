@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <div>
+    <img class="w-full" src="../assets/image/banner1.jpg">
+  </div>
 </template>
 
 <script>
