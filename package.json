@@ -2,7 +2,7 @@
   "name": "musinsa",
   "version": "1.0.0",
   "description": "무신사 스토어 UI/UX 리뉴얼",
-  "author": "besoftyoon@gmail.com",
+  "author": "67yjh00@gmail.com",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -13,9 +13,13 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "yarn": "^1.19.1"
   },
   "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.2.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^4.19.1",
     "eslint-friendly-formatter": "^4.0.1",

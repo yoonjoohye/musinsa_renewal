@@ -11,9 +11,22 @@ module.exports = {
       { name:'keywords', content:'무신사, 스토어, 쇼핑, 스트릿, 패션'}
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ]
   },
+  buildModules: [
+    '@nuxtjs/tailwindcss'
+  ],
+  tailwindcss: {
+    configPath: '~/config/tailwind.config.js',
+    cssPath: '~/assets/css/tailwind.css'
+  },
+  purgeCSS: {
+    whitelist: ['css-selector-to-whitelist'],
+  },
+  css:[
+    { src: '~assets/scss/style.scss', lang: 'scss' }
+  ],
   /*
   ** Customize the progress bar color
   */
@@ -22,9 +35,6 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    /*
-    ** Run ESLint on save
-    */
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
