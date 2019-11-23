@@ -1,6 +1,8 @@
 # musinsa
 
-> 무신사 스토어 UI/UX 리뉴얼
+> 무신사 스토어 인덱스화면 UI/UX 리뉴얼 개발
+
+> Nuxt.js & Vue.js로 개발
 
 ## Build Setup
 
@@ -20,4 +22,3 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
-
