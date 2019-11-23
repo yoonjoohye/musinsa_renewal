@@ -1,7 +1,7 @@
 <template>
   <footer class="w-screen border-t border-gray-500 flex justify-center items-center">
     <div class="container py-10 text-sm">
-      <div class="text-xl mb-3">MUSINSA STORE</div>
+      <div class="text-xl font-medium mb-3">MUSINSA STORE</div>
       <div class="mb-2">
         <div>대표전화 1544-7199</div>
         <div>09:00~18:00(주말, 공휴일 휴무)</div>

@@ -3,7 +3,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: '무신사',
+    title: '무신사 스토어',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -26,10 +26,6 @@ module.exports = {
   },
   css:[
     { src: '~assets/scss/style.scss', lang: 'scss' },
-    { src:'swiper/dist/css/swiper.css'},
-  ],
-  plugins: [
-    { src: '~/plugins/swiper.js', ssr: false },
   ],
   /*
   ** Customize the progress bar color

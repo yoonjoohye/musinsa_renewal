@@ -1,6 +1,6 @@
 <template>
-    <div class="w-1/6 flex flex-col mb-5 mr-5">
-      <div class="flex justify-center items-center w-full">
+    <div class="flex flex-col mb-3 p-3 hover:bg-gray-200 cursor-pointer">
+      <div class="flex justify-center items-center">
         <img class="h-48" :src="require(`../assets/image/rank${index}.jpg`)">
       </div>
       <div>

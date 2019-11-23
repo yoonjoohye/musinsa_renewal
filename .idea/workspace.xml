@@ -2,54 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2c96993-afa8-45be-904c-40824ce1100f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/image/banner1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/brand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/codi1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/codi2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/codi3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/codi4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/codi5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/codi6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/codi7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/designer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/icon/down-button.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/icon/list-menu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/icon/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/rank1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/rank2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/rank3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/rank4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/rank5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/rank6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/rank7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/rank8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/style1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/style2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/style3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/style4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/style5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/style6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Style.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layouts/Footer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layouts/Header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layouts/Nav.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layouts/Service.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/swiper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/icon/down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/icon/left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/icon/right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/icon/time.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/image/codi3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/image/codi3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/image/codi6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/image/codi6.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Banner.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Banner.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Brand.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Brand.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Designer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Designer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Footer.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Rank.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Rank.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Sale.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sale.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Today.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Today.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layouts/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/layouts/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layouts/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/layouts/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layouts/Nav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/layouts/Nav.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/swiper.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,6 +57,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/image" />
+      <recent name="$PROJECT_DIR$/assets/image/icon" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/plugins" />
@@ -115,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574356837767</updated>
-      <workItem from="1574356840752" duration="25531000" />
+      <workItem from="1574356840752" duration="36219000" />
     </task>
     <servers />
   </component>

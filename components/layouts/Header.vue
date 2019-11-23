@@ -12,11 +12,15 @@
       </div>
 
       <!--musinsa-->
-      <div class="flex justify-center items-center">
-        <div class="text-5xl mr-5">MUSINSA STORE</div>
-        <button @click="openService=!openService"><img class="w-5" src="../../assets/image/icon/down-button.svg">
-        </button>
+      <div class="flex justify-center w-full">
+        <div class="text-center inline">
+        <div class="flex justify-center items-center cursor-pointer" @click="openService=!openService">
+          <div class="text-5xl mr-5" >MUSINSA STORE</div>
+          <img class="drop-menu w-5" :class="openService ? 'click' : ''" src="../../assets/image/icon/down-button.svg">
+        </div>
+        </div>
       </div>
+
       <!--다른 서비스로 이동-->
       <div class="flex justify-center">
         <Service v-if="openService"></Service>
@@ -25,8 +29,8 @@
       <!--검색-->
       <div class="flex justify-center w-full mt-5">
         <div class="text-center w-1/2">
-          <div class="bg-white rounded flex justify-center items-center mb-3">
-            <input class="focus:outline-none text-black rounded w-full px-3 py-4 " type="text" placeholder="상품을 검색하세요">
+          <div class="bg-white flex justify-center items-center mb-3">
+            <input class="focus:outline-none text-black w-full px-3 py-4 " type="text" placeholder="상품을 검색하세요">
             <img class="cursor-pointer w-5 mr-3" src="../../assets/image/icon/search.svg">
           </div>
           <div class="text-right">

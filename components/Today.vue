@@ -1,5 +1,5 @@
 <template>
-  <div class="w-56 flex flex-col mr-5">
+  <div class="w-48 flex flex-col p-3 hover:bg-gray-200 cursor-pointer">
     <div class="mb-2">
       <img class="w-full" :src="require(`../assets/image/style${index}.jpeg`)">
     </div>
@@ -8,9 +8,9 @@
         <img src="../assets/image/rank2.jpg">
       </div>
       <div>
-        <div class="text-sm font-light">내셔널지오그래픽인데 아무튼 그럼 퉷</div>
+        <div class="text-xs font-light">내셔널 오그래픽임 아무튼 그럼</div>
         <div>
-          <span class="text-sm font-medium">20,000원</span>
+          <span class="text-xs font-medium">20,000원</span>
         </div>
       </div>
     </div>

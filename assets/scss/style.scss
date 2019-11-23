@@ -8,4 +8,9 @@
   width: 100%;
 }
 
-
+.drop-menu{
+  transition: transform 0.3s;
+  &.click{
+    transform: rotateX(180deg);
+  }
+}
