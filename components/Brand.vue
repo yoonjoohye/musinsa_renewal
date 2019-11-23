@@ -1,12 +1,13 @@
 <template>
-  <div class="p-3">
-    <img class="w-24" src="../assets/image/brand.png">
+  <div class="p-2">
+    <img class="h-10" :src="require(`../assets/image/brand${index}.png`)">
   </div>
 </template>
 
 <script>
     export default {
-        name: "Brand"
+        name: "Brand",
+        props:{index:Number}
     }
 </script>
 

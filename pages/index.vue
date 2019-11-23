@@ -50,7 +50,7 @@
             <div class="text-blue-500">보러가기 ></div>
           </div>
           <div class="flex flex-wrap justify-between">
-            <Designer v-for="x in 8" v-bind:key="x"></Designer>
+            <Designer v-for="x in 5" v-bind:key="x"></Designer>
           </div>
         </div>
         <div class="w-1/2 p-5">
@@ -59,7 +59,7 @@
             <div class="text-blue-500">보러가기 ></div>
           </div>
           <div class="flex flex-wrap justify-between">
-            <Brand v-for="x in 10" v-bind:key="x"></Brand>
+            <Brand v-for="x in 8" v-bind:key="x" :index="x"></Brand>
           </div>
         </div>
       </div>
