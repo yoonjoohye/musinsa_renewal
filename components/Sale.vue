@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col mb-3 p-3 hover:bg-gray-200 cursor-pointer">
       <div class="flex justify-center items-center">
-        <img class="h-48" :src="require(`../assets/image/rank${index}.jpg`)">
+        <img class="h-48" v-lazy="require(`../assets/image/rank${index}.jpg`)">
       </div>
       <div>
         <div class="mb-1">
@@ -24,6 +24,10 @@
     }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+  img[lazy=loaded] {
+
+
+  }
 
 </style>

@@ -17,6 +17,7 @@ module.exports = {
   buildModules: [
     '@nuxtjs/tailwindcss'
   ],
+  plugins: ['@/plugins/vue-lazyload'],
   tailwindcss: {
     configPath: '~/config/tailwind.config.js',
     cssPath: '~/assets/css/tailwind.css'

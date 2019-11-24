@@ -1,12 +1,12 @@
 <template>
   <div class="item">
     <div class="relative">
-      <img :src="require(`../assets/image/codi${index}.jpg`)">
+      <img v-lazy="require(`../assets/image/codi${index}.jpg`)">
       <div class="absolute top-0 w-full h-full style-box text-white z-10 flex justify-center items-center cursor-pointer">
         <div class="p-5 border">
           <div class="flex">
             <div class="mr-3">
-              <img src="../assets/image/rank2.jpg">
+              <img v-lazy="require('../assets/image/rank2.jpg')">
             </div>
             <div class="flex flex-col justify-between">
               <div class="text-xs">
