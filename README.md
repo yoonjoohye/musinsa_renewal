@@ -1,8 +1,10 @@
 # musinsa
 
-> 무신사 스토어 인덱스화면 UI/UX 리뉴얼 개발
+> 무신사 스토어 메인화면 UI/UX 리뉴얼 개발
 
 > Nuxt.js & Vue.js로 개발
+
+> 설문조사:https://forms.gle/H8fX6aeA2DSmu4nK8
 
 ## Build Setup
 
