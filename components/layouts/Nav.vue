@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="w-full h-full bg-black opacity-50 fixed z-10" @click="$store.state.open = !$store.state.open"></div>
-    <div class="w-1/3 h-full bg-white fixed overflow-y-scroll z-20">
+    <div class="w-1/4 h-full bg-white fixed overflow-y-scroll z-20">
       <!--닫기-->
       <div class="p-8 bg-black text-white flex justify-center justify-between">
         <div class="text-xl">MUSINSA STORE</div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center absolute w-1/2 bg-black text-gray-400 text-3xl p-5">
+  <div class="text-center absolute w-1/2 bg-black text-gray-400 text-3xl p-5 z-10">
     <div class="mb-5">
       <div class="cursor-pointer hover:font-medium hover:text-white">MUSINSA STORE</div>
       <div class="cursor-pointer hover:font-medium hover:text-white">WUSINSA</div>

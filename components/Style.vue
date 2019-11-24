@@ -1,10 +1,9 @@
 <template>
   <div class="item">
-
     <div class="relative">
       <img :src="require(`../assets/image/codi${index}.jpg`)">
-      <div class="absolute top-0 w-full h-full style-box text-white z-10 flex justify-center items-center">
-        <div class="p-10 border">
+      <div class="absolute top-0 w-full h-full style-box text-white z-10 flex justify-center items-center cursor-pointer">
+        <div class="p-5 border">
           <div class="flex">
             <div class="mr-3">
               <img src="../assets/image/rank2.jpg">
@@ -15,7 +14,7 @@
                 <div class="font-medium">20,000원</div>
               </div>
               <div>
-                <button class="text-center text-white border border-white w-full hover:bg-white hover:text-black">보러가기</button>
+                <button class="text-center text-white border border-white w-full hover:bg-white hover:text-black" @click="show">보러가기</button>
               </div>
             </div>
           </div>
@@ -28,13 +27,18 @@
 <script>
     export default {
         name: "Style",
-        props: {index: Number}
+        props: {index: Number},
+        methods:{
+            show(){
+                location.href='/detail';
+            }
+        }
     }
 </script>
 
 <style lang="scss" scoped>
 
   .style-box{
-    background-color:rgba(0,0,0,0.6);
+    background-color:rgba(0,0,0,0.55);
   }
 </style>

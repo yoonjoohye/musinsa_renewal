@@ -5,7 +5,7 @@
       </div>
       <div>
         <div class="mb-1">
-          <span class=" text-xs text-white bg-red-600 rounded px-2 py-1">D-2</span>
+          <span class=" text-xs text-white bg-red-600 px-2 py-1">D-2</span>
         </div>
         <div class="text-sm font-light">라퍼지스토어 미니멀 푸퍼 다운.</div>
         <div>
