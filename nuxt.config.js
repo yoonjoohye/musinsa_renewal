@@ -11,7 +11,7 @@ module.exports = {
       { name:'keywords', content:'무신사, 스토어, 쇼핑, 스트릿, 패션'}
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: 'https://www.musinsa.com/favicon.ico?ver=1' },
     ]
   },
   buildModules: [
