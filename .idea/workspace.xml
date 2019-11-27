@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2c96993-afa8-45be-904c-40824ce1100f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/image/lazy/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/lazy/loading.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/vue-lazyload.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Sale.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sale.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Style.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Style.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574356837767</updated>
-      <workItem from="1574356840752" duration="45422000" />
+      <workItem from="1574356840752" duration="46325000" />
     </task>
     <servers />
   </component>

@@ -23,7 +23,7 @@
       <div class="border-b py-10">
         <div class="flex justify-center justify-between">
           <div>
-            <div class="flex text-xl mb-3 cursor-pointer" @click="today=!today">오늘의 코디 <img class="drop-menu ml-1 w-5" :class="today?'click':''" src="../assets/image/icon/down.svg"></div>
+            <div class="flex text-xl mb-3 cursor-pointer" @click="today=!today">무신사 픽! <img class="drop-menu ml-1 w-5" :class="today?'click':''" src="../assets/image/icon/down.svg"></div>
             <div class="flex mb-2 text-blue-700" v-if="today">
               <div class="px-2 py-1 mr-3 cursor-pointer bg-gray-100 underline">스태프</div>
               <div class="px-2 py-1 cursor-pointer bg-gray-100">코디</div>
