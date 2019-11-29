@@ -1,35 +1,55 @@
 <template>
   <section class="w-screen min-h-screen flex justify-center">
     <div class="container py-10">
+      <div class="flex justify-center py-10">
+        <div class="w-1/2 p-5 border-r">
+          <div class="flex justify-center justify-between mb-8">
+            <div class="text-2xl font-light">디자이너</div>
+            <div class="text-gray-500">전체보기 ></div>
+          </div>
+          <div class="flex flex-wrap justify-between">
+            <Designer v-for="x in 5" v-bind:key="x"></Designer>
+          </div>
+        </div>
+        <div class="w-1/2 p-5">
+          <div class="flex justify-center justify-between mb-8">
+            <div class="text-2xl font-light">브랜드</div>
+            <div class="text-gray-500">전체보기 ></div>
+          </div>
+          <div class="flex flex-wrap justify-between">
+            <Brand v-for="x in 8" v-bind:key="x" :index="x"></Brand>
+          </div>
+        </div>
+      </div>
 
-      <div class="border-b py-10">
-        <div class="flex justify-center justify-between">
-          <div class="flex justify-center text-xl mb-3">타임세일 <img class="w-5 ml-1" src="../assets/image/icon/time.svg"></div>
-          <div class="text-blue-500">보러가기 ></div>
+      <div class="py-10">
+        <div class="flex justify-center mb-8">
+          <div class="flex justify-center w-full text-2xl font-light">타임세일 <img class="w-5 ml-1" src="../assets/image/icon/time.svg"></div>
+          <span class="text-gray-500 w-20">보러가기 ></span>
         </div>
         <div class="flex flex-wrap justify-between">
           <Sale v-for="x in 6" v-bind:key="x" :index="x"></Sale>
         </div>
       </div>
 
-      <div class="border-b py-10">
-        <div class="flex justify-center justify-between">
-          <div class="text-xl mb-3">전체랭킹</div>
-          <div class="text-blue-500">보러가기 ></div>
+      <div class=" py-10">
+        <div class="flex justify-center mb-8">
+          <div class="text-2xl w-full text-center font-light">전체랭킹</div>
+          <span class="text-gray-500 w-20">보러가기 ></span>
         </div>
         <Rank></Rank>
       </div>
 
       <div class="border-b py-10">
-        <div class="flex justify-center justify-between">
-          <div>
-            <div class="flex text-xl mb-3 cursor-pointer" @click="today=!today">무신사 픽! <img class="drop-menu ml-1 w-5" :class="today?'click':''" src="../assets/image/icon/down.svg"></div>
-            <div class="flex mb-2 text-blue-700" v-if="today">
-              <div class="px-2 py-1 mr-3 cursor-pointer bg-gray-100 underline">스태프</div>
-              <div class="px-2 py-1 cursor-pointer bg-gray-100">코디</div>
+        <div class="flex justify-center mb-8">
+          <div class="w-full flex flex-col items-center">
+            <div class="flex text-2xl font-light cursor-pointer">무신사 추천</div>
+            <div class="flex mb-2 font-light text-gray-500">
+              <div class="px-2 py-1 mr-3 cursor-pointer underline">스태프</div>
+              <div class="px-2 py-1 cursor-pointer ">코디</div>
             </div>
           </div>
-          <div class="text-blue-500">보러가기 ></div>
+          <span class="text-gray-500 w-20">보러가기 ></span>
         </div>
         <div class="flex flex-wrap justify-between mb-10">
           <Today v-for="x in 6" v-bind:key="x" :index="x"></Today>
@@ -39,29 +59,8 @@
         </div>
       </div>
 
-      <div class="border-b py-10">
+      <div class=" py-10">
         <Banner></Banner>
-      </div>
-
-      <div class="flex justify-center py-10">
-        <div class="w-1/2 p-5 border-r">
-          <div class="flex justify-center justify-between">
-            <div class="text-xl mb-3">디자이너</div>
-            <div class="text-blue-500">보러가기 ></div>
-          </div>
-          <div class="flex flex-wrap justify-between">
-            <Designer v-for="x in 5" v-bind:key="x"></Designer>
-          </div>
-        </div>
-        <div class="w-1/2 p-5">
-          <div class="flex justify-center justify-between">
-            <div class="text-xl mb-3 ">브랜드</div>
-            <div class="text-blue-500">보러가기 ></div>
-          </div>
-          <div class="flex flex-wrap justify-between">
-            <Brand v-for="x in 8" v-bind:key="x" :index="x"></Brand>
-          </div>
-        </div>
       </div>
     </div>
   </section>
