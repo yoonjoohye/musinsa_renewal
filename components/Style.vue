@@ -12,6 +12,10 @@
               <div class="text-xs">
                 <div class="font-light">내셔널 오그래픽임 아무튼 그럼</div>
                 <div class="font-medium">20,000원</div>
+                <div class="text-xs mt-3">
+                  <span class="bg-gray-200 text-gray-700 font-light rounded-lg px-2 py-1">#내셔널지오그래픽</span>
+                  <span class="bg-gray-200 text-gray-700 font-light rounded-lg px-2 py-1">#패딩</span>
+                </div>
               </div>
               <div>
                 <button class="text-center text-white border border-white w-full hover:bg-white hover:text-black" @click="show">보러가기</button>

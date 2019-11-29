@@ -32,9 +32,15 @@
         </div>
       </div>
 
-      <div class=" py-10">
+      <div class="py-10">
         <div class="flex justify-center mb-8">
-          <div class="text-2xl w-full text-center font-light">전체랭킹</div>
+          <div class="w-full flex flex-col items-center">
+            <div class="text-2xl text-center font-light">전체 랭킹</div>
+            <div class="flex mb-2 font-light text-gray-500">
+              <div class="px-2 py-1 mr-3 cursor-pointer underline">상품</div>
+              <div class="px-2 py-1 cursor-pointer ">브랜드</div>
+            </div>
+          </div>
           <span class="text-gray-500 w-20">보러가기 ></span>
         </div>
         <Rank></Rank>
@@ -43,7 +49,7 @@
       <div class="border-b py-10">
         <div class="flex justify-center mb-8">
           <div class="w-full flex flex-col items-center">
-            <div class="flex text-2xl font-light cursor-pointer">무신사 추천</div>
+            <div class="text-2xl font-light">무신사 추천</div>
             <div class="flex mb-2 font-light text-gray-500">
               <div class="px-2 py-1 mr-3 cursor-pointer underline">스태프</div>
               <div class="px-2 py-1 cursor-pointer ">코디</div>
