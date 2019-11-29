@@ -22,7 +22,7 @@
         </div>
       </div>
 
-      <div class="py-10">
+      <div class="border-b py-10">
         <div class="flex justify-center mb-8">
           <div class="flex justify-center w-full text-2xl font-light">타임세일 <img class="w-5 ml-1" src="../assets/image/icon/time.svg"></div>
           <span class="text-gray-500 w-20">보러가기 ></span>
@@ -32,7 +32,7 @@
         </div>
       </div>
 
-      <div class="py-10">
+      <div class="border-b py-10">
         <div class="flex justify-center mb-8">
           <div class="w-full flex flex-col items-center">
             <div class="text-2xl text-center font-light">전체 랭킹</div>
