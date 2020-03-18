@@ -25,7 +25,7 @@ $ npm start
 $ npm run generate
 ```
 
-ScreenShots
+왜 만들었는가?
 ---
 ![image](https://user-images.githubusercontent.com/26542929/75114792-7b324380-569c-11ea-8ab3-586f07ce08fa.png)
 처음 무신사 스토어를 이용할때 기능이 많아 레이아웃 적응이 쉽지 않았다.
@@ -37,6 +37,10 @@ ScreenShots
 그래서 구글폼에 무신사 서비스 사용에 대한 설문지를 작성했다.
 
 총 21명에게 응답 받았고, 결과는 사이트 속도와 UI/UX에 의해 상품을 찾기 어렵다는 것이 문제였다.
+
+
+어떻게 개선했는가?
+---
 
 ![image](https://user-images.githubusercontent.com/26542929/75114794-808f8e00-569c-11ea-808f-bb8893d6ae6b.png)
 ![image](https://user-images.githubusercontent.com/26542929/75114790-74a3cc00-569c-11ea-8cb8-4a0dde9956c8.png)
