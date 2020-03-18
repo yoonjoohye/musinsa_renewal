@@ -4,9 +4,11 @@
 
 > [설문조사] (https://forms.gle/H8fX6aeA2DSmu4nK8)를 기반으로 제작
 
+
 Skills
 ---
 > Nuxt.js + TailwindCSS + lazy-loading
+
 
 Setup
 ---
@@ -25,9 +27,11 @@ $ npm start
 $ npm run generate
 ```
 
+
 왜 만들었는가?
 ---
-![image](https://user-images.githubusercontent.com/26542929/75114792-7b324380-569c-11ea-8ab3-586f07ce08fa.png)
+![image](https://user-images.githubusercontent.com/26542929/76966219-f66bda00-6968-11ea-9f42-5748909b818a.png)
+
 처음 무신사 스토어를 이용할때 기능이 많아 레이아웃 적응이 쉽지 않았다.
 
 그래서 '무신사를 한번 개선해보자!'라는 생각을 했다.
@@ -40,13 +44,10 @@ $ npm run generate
 
 
 
-
 어떻게 개선했는가?
 ---
 
-![image](https://user-images.githubusercontent.com/26542929/75114794-808f8e00-569c-11ea-808f-bb8893d6ae6b.png)
-![image](https://user-images.githubusercontent.com/26542929/75114790-74a3cc00-569c-11ea-8cb8-4a0dde9956c8.png)
-
+![image](https://user-images.githubusercontent.com/26542929/75114792-7b324380-569c-11ea-8ab3-586f07ce08fa.png)
 사용자들이 상품을 잘 찾도록 만드는 것이 목적이었기 때문에 UI/UX는 위 사진처럼 개선했다.
 
 목적에 집중하고자 최대한 기능을 간소화해봤다.
@@ -62,3 +63,10 @@ $ npm run generate
 쇼핑이슈, 기획전 등 사용자가 알아야하는 소식을 한 눈에 볼 수 있게 스와이핑 되는 배너로 만들었다.
 
 vue와 nuxt.js를 사용하고, Lazy-loading을 적용하여 사이트 속도를 개선하려고 노력했다.
+
+
+
+ScreenShot
+---
+![image](https://user-images.githubusercontent.com/26542929/75114794-808f8e00-569c-11ea-808f-bb8893d6ae6b.png)
+![image](https://user-images.githubusercontent.com/26542929/75114790-74a3cc00-569c-11ea-8cb8-4a0dde9956c8.png)
